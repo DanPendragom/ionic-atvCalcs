@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
 
 import {
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardSubtitle,
-  IonCardTitle,
   IonContent,
   IonHeader,
-  IonIcon,
   IonItem,
   IonLabel,
-  IonList,
-  IonListHeader,
   IonPage,
   IonTitle,
   IonToolbar,
-  IonChip,
   IonAvatar,
   IonGrid,
   IonRow,
@@ -25,14 +16,13 @@ import {
   IonButton
 } from '@ionic/react';
 
-import { book, build, colorFill, grid } from 'ionicons/icons';
 
 import Male from '../../src/assets/male.png';
 
 import './Tab1.css';
 
 export default class Tab1 extends Component {
-  
+
   calcula(altura: number) {
     let res = (altura - 100) * 0.9 ;
     
