@@ -6,9 +6,11 @@ const Tab3Page: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab Three</IonTitle>
+          <IonTitle>Cálculo de IMC</IonTitle>
         </IonToolbar>
+
       </IonHeader>
+      
       <IonContent />
     </IonPage>
   );
