@@ -1,4 +1,14 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerAvatar{
+  display: flex;
+  justify-content: center;
+}
+
 .welcome-card img {
   max-height: 35vh;
   overflow: hidden;
 }
+
