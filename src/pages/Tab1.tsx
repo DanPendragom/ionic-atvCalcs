@@ -39,7 +39,7 @@ export default class Tab1 extends Component {
       <IonPage>
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Peso p/ Homem</IonTitle>
+            <IonTitle><h1>Peso p/ Homem</h1></IonTitle>
           </IonToolbar>
         </IonHeader>
 

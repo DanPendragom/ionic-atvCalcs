@@ -40,7 +40,7 @@ export default class Tab3 extends Component {
       <IonPage>
         <IonHeader>
           <IonToolbar>
-            <IonTitle>Cálculo de IMC</IonTitle>
+            <IonTitle><h1>Cálculo de IMC</h1></IonTitle>
           </IonToolbar>
         </IonHeader>
 
@@ -68,7 +68,7 @@ export default class Tab3 extends Component {
               <IonCol size="12">
                 <IonItem>
                   <IonLabel position="floating">Digite sua altura(m)</IonLabel>
-                  <IonInput id="valor1" value="" type="number"/>
+                  <IonInput placeholder="Ex: 1,75" id="valor1" value="" type="number"/>
                 </IonItem>
               </IonCol>
             </IonRow>
