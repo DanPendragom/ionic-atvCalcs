@@ -23,7 +23,7 @@ import './Tab1.css';
 
 export default class Tab1 extends Component {
 
-  calcula(altura: number) {
+  calculaHomem(altura: number) {
     let res = (altura - 100) * 0.9 ;
     
     document.querySelectorAll('input')[1].value = res.toString();
@@ -31,7 +31,7 @@ export default class Tab1 extends Component {
 
   pegaValores() {
     let altura = parseInt(document.querySelectorAll('input')[0].value);
-    this.calcula(altura);
+    this.calculaHomem(altura);
   }
 
   render() {

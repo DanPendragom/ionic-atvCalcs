@@ -22,15 +22,14 @@ import './Tab1.css';
 
 export default class Tab2 extends Component {
   
-  calcula(altura: number) {
+  calculaMulher(altura: number) {
     let res = (altura - 100) * 0.85 ;
-    
     document.querySelectorAll('input')[1].value = res.toString();
   }
 
   pegaAlturaFemale() {
     let altura = parseInt(document.querySelectorAll('input')[0].value);
-    this.calcula(altura);
+    this.calculaMulher(altura);
   }
 
   render() {

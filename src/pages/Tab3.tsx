@@ -22,7 +22,7 @@ import './Tab1.css';
 
 export default class Tab3 extends Component {
   
-  calcula2(altura: number, peso: number) {
+  calculaImc(altura: number, peso: number) {
     console.log(altura)
     let res = peso/(altura * altura);
     res = parseFloat(res.toFixed(2));
@@ -32,7 +32,7 @@ export default class Tab3 extends Component {
   pegaAlturaPeso() {
     let peso = parseFloat(document.querySelectorAll('input')[0].value);
     let altura = parseFloat(document.querySelectorAll('input')[1].value);
-    this.calcula2(altura, peso);
+    this.calculaImc(altura, peso);
   }
 
   render() {
